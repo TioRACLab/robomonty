@@ -12,7 +12,6 @@
 #define _VSARDUINO_H_
 #define __AVR_ATmega328p__
 #define __AVR_ATmega328P__
-#define _VMDEBUG 1
 #define F_CPU 16000000L
 #define ARDUINO 165
 #define ARDUINO_AVR_UNO
@@ -88,5 +87,7 @@ extern "C" void __cxa_pure_virtual() {;}
 #include <RoboMonty.ino>
 #include <Motores.ino>
 #include <Pinagem.h>
+#include <Pinagem2.h>
+#include <Pitches.h>
 #include <Temp.ino>
 #endif

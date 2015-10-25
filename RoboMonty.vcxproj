@@ -74,10 +74,10 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>D:\Progamas\Arduino\hardware\arduino\avr\cores\arduino;D:\Progamas\Arduino\hardware\arduino\avr\variants\standard;D:\ProjetosGIT\robomonty;D:\Progamas\Arduino\libraries;D:\Progamas\Arduino\hardware\arduino\avr\libraries;D:\Programas\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\lyoew0a1.st4\Micro Platforms\default\debuggers;D:\RAC\Documentos\Arduino\libraries;D:\Progamas\Arduino\hardware\tools\avr/avr/include/;D:\Progamas\Arduino\hardware\tools\avr//avr/include/avr/;D:\Progamas\Arduino\hardware\tools\avr/lib\gcc\avr\4.8.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <ForcedIncludeFiles>C:\Users\Ricardo\Documents\Arduino\RoboMonty\__vm\.RoboMonty.vsarduino.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <AdditionalIncludeDirectories>D:\Progamas\Arduino\hardware\arduino\avr\cores\arduino;D:\Progamas\Arduino\hardware\arduino\avr\variants\standard;D:\ProjetosGIT\robomonty;D:\Progamas\Arduino\libraries;D:\Progamas\Arduino\hardware\arduino\avr\libraries;D:\Programas\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\lyoew0a1.st4\Micro Platforms\default\debuggers;D:\RAC\Documentos\Arduino\libraries;D:\ProjetosGIT\robomonty;D:\Progamas\Arduino\hardware\arduino\avr\cores\arduino;D:\Progamas\Arduino\hardware\arduino\avr\variants\standard;D:\Progamas\Arduino\hardware\tools\avr/avr/include/;D:\Progamas\Arduino\hardware\tools\avr//avr/include/avr/;D:\Progamas\Arduino\hardware\tools\avr/lib\gcc\avr\4.8.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\ProjetosGIT\robomonty\__vm\.robomonty.vsarduino.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
       <IgnoreStandardIncludePath>true</IgnoreStandardIncludePath>
-      <PreprocessorDefinitions>__AVR_ATmega328p__;__AVR_ATmega328P__;_VMDEBUG=1;F_CPU=16000000L;ARDUINO=165;ARDUINO_AVR_UNO;ARDUINO_ARCH_AVR;__cplusplus;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>__AVR_ATmega328p__;__AVR_ATmega328P__;F_CPU=16000000L;ARDUINO=165;ARDUINO_AVR_UNO;ARDUINO_ARCH_AVR;__cplusplus;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -135,6 +135,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Pinagem.h" />
+    <ClInclude Include="Pitches.h" />
     <ClInclude Include="__vm\.RoboMonty.vsarduino.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

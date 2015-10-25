@@ -23,6 +23,9 @@
     <ClInclude Include="__vm\.RoboMonty.vsarduino.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Pitches.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
     <ClInclude Include="Pinagem.h">
       <Filter>Header Files</Filter>
     </ClInclude>
